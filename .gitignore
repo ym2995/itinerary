@@ -1,0 +1,4 @@
+node_modules
+# build output is committed as docs/
+.env
+.DS_Store
