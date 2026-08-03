@@ -1,0 +1,13 @@
+{
+  "supabaseUrl": "https://supabase.com/dashboard/project/gfghewnbrzljqesliywn",
+  "supabaseAnonKey": "sb_publishable_9hc5xA845AURoW3Q0CRF7A_rDVdGmc-",
+
+  "travellerId": "aarusha",
+
+  "trip": {
+    "name": "Europe Trip",
+    "from": "2026-08-29",
+    "to": "2026-00-19",
+    "code": "ITN-2026-EUR"
+  }
+}
