@@ -2,7 +2,7 @@
   "supabaseUrl": "https://supabase.com/dashboard/project/gfghewnbrzljqesliywn",
   "supabaseAnonKey": "sb_publishable_9hc5xA845AURoW3Q0CRF7A_rDVdGmc-",
 
-  "travellerId": "aarusha",
+   "loginEmail": "aarusha.yash@gmail.com",
 
   "trip": {
     "name": "Europe Trip",
