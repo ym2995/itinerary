@@ -10,11 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Archivo:wght@400;500;600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
     <script type="module" crossorigin src="./assets/index-BCh5gXdT.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-stpkRidl.css">
-    <style>
+      <style>
+    /* ---- readability ---- */
     html, body { overflow-x: hidden; }
-    .pd { --dim: #3E4759; --line: #B9C1D0;
-          font-size: 15px; line-height: 1.55;
-          max-width: 1180px; margin: 0 auto; }
+    body {
+      background-color: #E9ECF1;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240' fill='none' stroke='%2314213B' stroke-opacity='0.10' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 34 L64 12 L46 62 L36 42 Z'/%3E%3Cpath d='M14 34 L36 42'/%3E%3Ccircle cx='142' cy='54' r='19' stroke-dasharray='3 4'/%3E%3Cpath d='M135 54 h14 M142 47 v14'/%3E%3Cpath d='M26 198 Q 84 158 140 194' stroke-dasharray='4 5'/%3E%3Cpath d='M180 214 Q 190 172 196 142'/%3E%3Cpath d='M212 214 Q 202 172 196 142'/%3E%3Cpath d='M196 142 v-10'/%3E%3Cpath d='M184 196 h24'/%3E%3Cpath d='M188 176 h16'/%3E%3Cpath d='M182 206 q14 -12 28 0'/%3E%3C/svg%3E");
+      background-size: 240px 240px;
+    }
+    .pd {
+      background: transparent;
+      --dim: #3E4759; --line: #B9C1D0;
+      font-size: 15px; line-height: 1.55;
+      max-width: 1180px; margin: 0 auto;
+    }
     .pd-eyebrow { font-size: 11px; letter-spacing: .16em; }
     .pd-title { font-weight: 500; }
     .pd-sub { font-size: 13px; }
@@ -35,6 +44,26 @@
     .pd-edit { font-size: 12px; }
     .pd-editor label { font-size: 11px; }
     .pd-mrz { color: var(--dim); opacity: 1; }
+  
+    /* ---- mobile ---- */
+    @media (max-width: 640px) {
+      .pd { padding: 14px; }
+      .pd-head { padding-bottom: 14px; margin-bottom: 16px; }
+      .pd-title { font-size: 30px; }
+      .pd-cal { padding: 12px; margin-bottom: 4px; }
+      .pd-cell { aspect-ratio: auto; min-height: 46px; }
+      .pd-num { font-size: 15px; }
+      .pd-day { min-height: auto; }
+      .pd-dayhead { padding: 16px 16px 14px; flex-wrap: wrap; gap: 12px; }
+      .pd-dayttl { font-size: 26px; }
+      .pd-add { padding: 11px 18px; }
+      .pd-list { padding: 4px 16px 16px; }
+      .pd-entry { padding: 16px 0; gap: 12px; }
+      .pd-editor { padding: 14px; }
+      .pd-editor input, .pd-editor select { font-size: 16px; }
+      .pd-mrz { padding: 10px 16px; }
+      .pd-stampn { max-width: 150px; }
+    }
   </style>
   </head>
   <body>
